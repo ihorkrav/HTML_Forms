@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Flight</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class=".content">
+        <header>
+            <h1 id="header_text">Flights - Search List</h1>
+            <p id="header_path">Home/Flights Search List</p>
+        </header>
+        <form id="header_ways">
+            <div id="radioBtns">
+                <input type="radio" name="wayBtn">
+                <label for="">One way</label>
+                <input type="radio" name="wayBtn">
+                <label for="">Round trip</label>
+            </div>
+            <div id="header_inputs">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">@</span>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">@</span>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">@</span>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                <select id="header_selector" class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+                <button id="searchBtn" type="button" class="btn btn-primary btn-lg">Search</button>
+            </div>
+        </form>
+        <div id="Site_content">
+            <form id="Filter">
+                <div id="content">
+    
+                    <h2>Filter</h2>
+                    <div id="Stops">
+                        <h5 id="blue_text">No. of stops</h5>
+                        <div id="filter_inputs">
+                            <div>
+                                <input type="checkbox" placeholder="No stops">
+                                <label for="">No stops</label>
+                            </div>
+                            <div>
+                                <input type="checkbox">
+                                <label for="">1 stop</label>
+                            </div>
+                            <div>
+                                <input type="checkbox">
+                                <label for="">2+ stops</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Price">
+                        <h5 id="blue_text">Price</h5>
+                        <div id="price_limit">
+                            <p>Min:</p>
+                            <p>Max:</p>
+                        </div>
+                        <div id="price_content">
+                            <input id="price_money" type="number" placeholder="0">
+                            <label >$</label>
+                            <label >-</label>
+                            <input id="price_money" type="number" placeholder="1000">
+                            <label for="$"></label>
+                        </div>
+                    </div>
+                    <div id="Airlines">
+                        <h5 id="blue_text">Airlines</h5>
+                        <div id="airlines_content">
+                            <div>
+                                <input type="checkbox">
+                                <label for="">Asian Airlines</label>
+                            </div>
+                            <div>
+                                <input type="checkbox">
+                                <label for="">American Airlines</label>
+                            </div>
+                            <div>
+                                <input type="checkbox">
+                                <label for="">Air Canada</label>
+                            </div>
+                            <div>
+                                <input type="checkbox">
+                                <label for="">Air India</label>
+                            </div>
+                            <div>
+                                <input type="checkbox">
+                                <label for="">Jet Airways</label>
+                            </div>
+                            <div>
+                                <input type="checkbox">
+                                <label for="">Spicejet</label>
+                            </div>
+                            <div>
+                                <input type="checkbox">
+                                <label for="">IndiGo</label>
+                            </div>
+                            <div>
+                                <input type="checkbox">
+                                <label for="">Multiple Airlines</label>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <form id="Booking_form">
+                <div id="Booking">
+                    <h1 id="Booking_path">Dehli to Sydney</h1>
+                    <div id="Booking_explanation_tags">
+                        <h5 id="blue_text">Airlines</h5>
+                        <h5 id="blue_text">Departure</h5>
+                        <h5 id="blue_text">Duration</h5>
+                        <h5 id="blue_text">Arrival</h5>
+                        <h5 id="blue_text">Price</h5>
+                    </div>      
+                    <div>
+                        <div id="Book_content">
+                            <div div="Book_elemetn">
+                                <label for="">IndiGo</label>
+                                <label id="Down_text" for="">6E-2489</label>
+                            </div>
+                            <div div="Book_elemetn">
+                                <label for="">23:30</label>
+                                <label id="Down_text" for="">Dehli</label>
+                            </div>
+                            <div div="Book_elemetn">
+                                <label for="">18h 55min</label>
+                                <label id="Down_text" for="">Non Stop</label>
+                            </div>
+                            <div div="Book_elemetn">
+                                <label for="">18:15</label>
+                                <label id="Down_text" for="">Sydney</label>
+                            </div>
+                            <label for="">$980</label>
+                            <div div="Book_elemetn">
+                                <button id="bookBtn" type="button" class="btn btn-primary btn-lg">Book</button>
+
+                                <a id="Flight_details" href="">Flight Details</a>
+                            </div>
+                        </div>
+                        <div id="Book_content">
+                            <div div="Book_elemetn">
+                                <label for="">IndiGo</label>
+                                <label id="Down_text" for="">6E-2489</label>
+                            </div>
+                            <div div="Book_elemetn">
+                                <label for="">23:30</label>
+                                <label id="Down_text" for="">Dehli</label>
+                            </div>
+                            <div div="Book_elemetn">
+                                <label for="">18h 55min</label>
+                                <label id="Down_text" for="">Non Stop</label>
+                            </div>
+                            <div div="Book_elemetn">
+                                <label for="">18:15</label>
+                                <label id="Down_text" for="">Sydney</label>
+                            </div>
+                            <label for="">$980</label>
+                            <div div="Book_elemetn">
+                                <button id="bookBtn" type="button" class="btn btn-primary btn-lg">Book</button>
+
+                                <a id="Flight_details" href="">Flight Details</a>
+                            </div>
+                        </div>
+                        <div id="Book_content">
+                            <div div="Book_elemetn">
+                                <label for="">IndiGo</label>
+                                <label id="Down_text" for="">6E-2489</label>
+                            </div>
+                            <div div="Book_elemetn">
+                                <label for="">23:30</label>
+                                <label id="Down_text" for="">Dehli</label>
+                            </div>
+                            <div div="Book_elemetn">
+                                <label for="">18h 55min</label>
+                                <label id="Down_text" for="">Non Stop</label>
+                            </div>
+                            <div div="Book_elemetn">
+                                <label for="">18:15</label>
+                                <label id="Down_text" for="">Sydney</label>
+                            </div>
+                            <label for="">$980</label>
+                            <div div="Book_elemetn">
+                                <button id="bookBtn" type="button" class="btn btn-primary btn-lg">Book</button>
+
+                                <a id="Flight_details" href="">Flight Details</a>
+                            </div>
+                        </div>
+                        <div id="Book_content">
+                            <div div="Book_elemetn">
+                                <label for="">IndiGo</label>
+                                <label id="Down_text" for="">6E-2489</label>
+                            </div>
+                            <div div="Book_elemetn">
+                                <label for="">23:30</label>
+                                <label id="Down_text" for="">Dehli</label>
+                            </div>
+                            <div div="Book_elemetn">
+                                <label for="">18h 55min</label>
+                                <label id="Down_text" for="">Non Stop</label>
+                            </div>
+                            <div div="Book_elemetn">
+                                <label for="">18:15</label>
+                                <label id="Down_text" for="">Sydney</label>
+                            </div>
+                            <label for="">$980</label>
+                            <div div="Book_elemetn">
+                                <button id="bookBtn" type="button" class="btn btn-primary btn-lg">Book</button>
+
+                                <a id="Flight_details" href="">Flight Details</a>
+                            </div>
+                        </div>
+                        <div id="Book_content">
+                            <div div="Book_elemetn">
+                                <label for="">IndiGo</label>
+                                <label id="Down_text" for="">6E-2489</label>
+                            </div>
+                            <div div="Book_elemetn">
+                                <label for="">23:30</label>
+                                <label id="Down_text" for="">Dehli</label>
+                            </div>
+                            <div div="Book_elemetn">
+                                <label for="">18h 55min</label>
+                                <label id="Down_text" for="">Non Stop</label>
+                            </div>
+                            <div div="Book_elemetn">
+                                <label for="">18:15</label>
+                                <label id="Down_text" for="">Sydney</label>
+                            </div>
+                            <label for="">$980</label>
+                            <div div="Book_elemetn">
+                                <button id="bookBtn" type="button" class="btn btn-primary btn-lg">Book</button>
+
+                                <a id="Flight_details" href="">Flight Details</a>
+                            </div>
+                        </div>
+                        <div id="Book_content">
+                            <div div="Book_elemetn">
+                                <label for="">IndiGo</label>
+                                <label id="Down_text" for="">6E-2489</label>
+                            </div>
+                            <div div="Book_elemetn">
+                                <label for="">23:30</label>
+                                <label id="Down_text" for="">Dehli</label>
+                            </div>
+                            <div div="Book_elemetn">
+                                <label for="">18h 55min</label>
+                                <label id="Down_text" for="">Non Stop</label>
+                            </div>
+                            <div div="Book_elemetn">
+                                <label for="">18:15</label>
+                                <label id="Down_text" for="">Sydney</label>
+                            </div>
+                            <label for="">$980</label>
+                            <div div="Book_elemetn">
+                                <button id="bookBtn" type="button" class="btn btn-primary btn-lg">Book</button>
+
+                                <a id="Flight_details" href="">Flight Details</a>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

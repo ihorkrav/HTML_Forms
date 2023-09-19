@@ -1,0 +1,72 @@
+#login_form{
+    display:flex;
+    flex-direction: column;
+    gap: 10vh;
+    margin: auto;
+    background-color: rgb(186, 182, 182);
+    width: 40%;
+    box-shadow:  5px 5px 5px rgb(108, 105, 105);
+}
+body{
+    background-color: rgb(218, 129, 41);
+}
+#login_input{
+    height: 10vh;
+    margin:0px 20px;
+    text-align: center;
+}
+#login_btn{
+    height: 10vh;
+    margin:0px 20px;
+    text-align: center;
+    background-color: rgb(55, 168, 55);
+    border:none;
+    box-shadow: 0 5px 2px -2px gray;
+
+}
+#forgot_password_link{
+color: rgb(218, 129, 41);;
+text-align: center;
+font-weight: bold;
+text-decoration: none;
+font-size: larger;
+margin-bottom: 10px;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+#social_login{
+    color: white;
+    text-align: center;
+}
+img{
+    height: 30px;
+    background: transparent;
+    margin-top: 1vh;
+    margin-right: 10px;
+}
+#facebook_btn{
+    background-color: rgb(35, 35, 152);
+    width:15vw;
+    margin:0 4%;
+    border: none;
+    box-shadow: 2px 2px 2px 2px rgb(108, 105, 105);
+}
+#twitter_btn{
+    background-color: aqua;
+    width:15vw;
+    margin:0 4%;
+    border: none;
+    box-shadow: 2px 2px 2px 2px rgb(108, 105, 105);
+}
+#btncontent{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    color: white;
+}
+#footer{
+    text-align: center;
+}

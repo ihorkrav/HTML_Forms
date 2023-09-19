@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(213, 208, 208);
+}
+header{
+    background-color: rgb(23, 45, 153);
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+#header_text{
+    margin-left: 4vw;
+}
+#header_path{
+    margin-top: 2vh;
+    margin-right:4vw;
+}
+#radioBtns{
+    margin:5vw;
+
+    margin-bottom: 0;
+}
+#header_inputs{
+    display:flex;
+    flex-direction: row;
+    gap:1vw;
+    margin:5vw;
+    margin-top:1vh;
+}
+#header_selector{
+    height:7vh;
+}
+#searchBtn{
+    background-color: rgb(23, 45, 153);
+    width:30vw;
+    height:7vh;
+}
+#blue_text{
+    color: rgb(23, 45, 153);;
+}
+#Filter{
+    border: 1px solid;
+    border-radius: 30px;
+    width: 30vw;
+    margin: 5vw;
+    background-color: white;
+}
+#price_content{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:1vw 0 1vw 0;
+    margin-top: none;
+}
+#airlines_content{
+    display:flex;
+    flex-direction: column;
+}
+#price_money{
+    width:5vw;
+    border-radius: 10px;
+    margin-top: -2vh;
+}
+#content{
+    margin:5vw;
+}
+#Stops, #Price, #Airlines{
+    margin-top:5vh;
+}
+#filter_inputs{
+    display:flex;
+    flex-direction: column;
+}
+#price_limit{
+    display: flex;
+    flex-direction: row;
+    gap: 10vw;
+}
+#Book_content{
+    display:flex;
+    flex-direction: row;
+    border: 1px solid black;
+    column-gap: 4vw;
+    padding: 0 1vw 0 1vw;
+}
+#Book_element{
+    display:flex;
+    flex-direction: column;
+    margin:1vw;
+    
+}
+#Booking_explanation_tags{
+    display:flex;
+    flex-direction:row;
+    /* justify-content: space-between;
+    justify-content: space-around; */
+    column-gap: 3vw;
+    padding: 0 1vw 0 1vw;
+    background-color: rgb(213, 208, 208);;
+}
+#Booking_path{
+    text-align: center;
+    margin:5vw;
+}
+#Site_content{
+    display: flex;
+    flex-direction: row;
+}
+#Booking_form{
+    border: 1px solid;
+    border-radius: 30px;
+    width: 70vw;
+    margin: 5vw;
+    background-color: white;
+}
+#bookBtn{
+    background-color: rgb(23, 45, 153);
+    width:7vw;
+    height:6vh;
+    margin:1vw;
+    text-align: center;
+}
+#Down_text{
+color:gray;
+font-size: 0.9em;
+}
+#Flight_details{
+    text-decoration: none;
+}

@@ -1,0 +1,57 @@
+#element{
+    display: flex;
+    flex-direction: row;
+}
+input{
+    height: 6vh;
+}
+body{
+    background-image: url(https://wallpaperaccess.com/full/1447475.jpg);
+}
+
+form{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-left: 15vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    padding:10px;
+    box-shadow: 0 0 10px #fff;
+    width: 70vw;
+}
+#SubmitBtn{
+    color: white;
+    align-self: center;
+    background: none;
+    width:40vw;
+    border: 1px solid white;
+    height: 6vh;
+}
+#inputs{
+    /* display:flex;
+    justify-content: center; */
+    gap: 10px;
+    margin-left: 5vw;
+   margin-top: 2vh;
+}
+#inputs_numbers{
+    margin-left: 5.8vw;
+    margin-top: 2vh;
+    gap:10px;
+}
+#inputs_dropdown{
+    margin-left: 0.5vw;
+   
+    gap:10px;
+}
+#dropdown{
+    width: 30vw;
+}
+#messageInput{
+    height:15vh;
+    width: 30vw;
+}
+#wrapper{
+    text-align: center;
+}
